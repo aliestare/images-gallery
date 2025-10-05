@@ -8,5 +8,12 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
-    "python.pythonPath": "api/.venv/bin/python3"
+    "python.defaultInterpreterPath": "api/.venv/bin/python3",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticMode": "workspace",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "[python]": {
+        "editor.formatOnSave": true
+    }
+
 }

@@ -9,11 +9,12 @@
         "source.fixAll.eslint": "explicit"
     },
     "python.defaultInterpreterPath": "api/.venv/bin/python3",
-    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.typeCheckingMode": "strict",
     "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.autoImportCompletions": true,
     "editor.defaultFormatter": "ms-python.black-formatter",
     "[python]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
     }
 
 }
